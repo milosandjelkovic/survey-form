@@ -1,0 +1,51 @@
+<header>
+	<h1 id="title">Survey Form</h1>
+	<p id="description">Thank you for visiting our website. You have been selected to participate in a brief customer satisfaction survey to let us know how we can improve your experience.</p>
+</header>
+<div id="main-container">
+	<form id="survey-form">
+		<div>
+			<label id="name-label" for="name">Name:</label>
+			<input id="name" type="text" name="name" placeholder="Enter your name…" required>
+		</div>
+
+		<div>
+			<label id="email-label" for="email">Email:</label>
+			<input id="email" type="email" name="email" placeholder="Your email address…" required>
+		</div>
+
+		<div>
+			<label id="number-label" for="number">Age:</label>
+			<input id="number" type="number" name="number" placeholder="How old are you…" min="17" max="77" required>
+		</div>
+
+		<div>
+			<label>Gender:</label>
+			<select id="dropdown">
+				<option>Male</option>
+				<option>Female</option>
+			</select>
+		</div>
+
+		<div>
+			<label>Do you like our website?</label>
+			<input type="radio" name="like" value="male"> Yes<br>
+			<input type="radio" name="like" value="female"> No
+		</div>
+
+		<div>
+			<label>What page on our website do you appreciate the most?</label>
+			<input type="checkbox" name="website-like" value="home"> Home page<br>
+			<input type="checkbox" name="website-like" value="about"> About us<br>
+			<input type="checkbox" name="website-like" value="blog"> Blog
+		</div>
+
+		<div>
+		<label>Comments:</label>
+		<textarea placeholder="Please enter your comment…"></textarea>
+		</div>
+		
+		<a href="#"><button type="submit" id="submit">Submit</button></a>
+
+	</form>
+</div>
