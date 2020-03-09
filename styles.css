@@ -1,57 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Yesteryear&display=swap');
 
-@media only screen and (max-width: 800px){
-	/* Do 800 */
-	header{
-		width: 100%;
-	}
-
-	h1 + p{
-		padding: 0 3em 3em 3em;
-	}
-
-	#main-container{
-		width: 100%;
-	}
-}
-
-@media (max-width: 1200px) and (min-width: 800px){
-	/* Od 800 do 1200 */
-	header{
-		width: 70%;
-	}
-
-	body{
-		margin: 5em 0 5em 0;
-	}
-
-	h1 + p{
-		padding: 0 4em 3em 4em;
-	}
-
-	#main-container{
-		width: 70%;
-	}
-}
-
-@media (min-width: 1200px){
-	/* Od 1200 */
-	h1 + p{
-		padding: 0 7em 3em 7em;
-	}
-
-	header{
-		width: 50%;
-	}
-
-	body{
-		margin: 5em 0 5em 0;
-	}
-
-	#main-container{
-		width: 50%;
-	}
-}
 
 *{
 	box-sizing: border-box;
@@ -174,4 +122,57 @@ button{
 
 button:hover {
 	background: #504d97;
+}
+
+@media only screen and (max-width: 800px){
+	/* Do 800 */
+	header{
+		width: 100%;
+	}
+
+	h1 + p{
+		padding: 0 3em 3em 3em;
+	}
+
+	#main-container{
+		width: 100%;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 800px){
+	/* Od 800 do 1200 */
+	header{
+		width: 70%;
+	}
+
+	body{
+		margin: 5em 0 5em 0;
+	}
+
+	h1 + p{
+		padding: 0 4em 3em 4em;
+	}
+
+	#main-container{
+		width: 70%;
+	}
+}
+
+@media (min-width: 1200px){
+	/* Od 1200 */
+	h1 + p{
+		padding: 0 7em 3em 7em;
+	}
+
+	header{
+		width: 50%;
+	}
+
+	body{
+		margin: 5em 0 5em 0;
+	}
+
+	#main-container{
+		width: 50%;
+	}
 }
